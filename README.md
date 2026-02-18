@@ -115,7 +115,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 Feel free to open an issue or submit a pull request.
 
-Created by Apdoolmajeed Hamza - [LinkedIn Profile](https://www.linkedin.com/in/apdoolhamza/) 
-
-Last updated: February 2026
+### Created by Apdoolmajeed Hamza
+[LinkedIn Profile](https://www.linkedin.com/in/apdoolhamza/) 
 
