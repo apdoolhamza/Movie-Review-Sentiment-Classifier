@@ -2,7 +2,7 @@ import gradio as gr
 import joblib
 import re
 
-model = joblib.load("sentiment_model_calibrated.joblib")
+model = joblib.load("Model/sentiment_model_calibrated.joblib")
 
 def clean_text(text):
     text = re.sub(r"<.*?>", "", text)
