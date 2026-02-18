@@ -9,6 +9,12 @@
 A clean, efficient, and production-ready binary sentiment classifierfor movie reviews using classic machine learning techniques (TF-IDF + LinearSVC + calibration).  
 Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight, explainable, and GPU-free.
 
+<p align="center">
+  <a href="https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI">
+    <img src="Screenshots/Interface.jpg" width="700"/>
+  </a>
+</p>
+
 ## Features
 
 - Comprehensive EDA with word clouds & length distributions
