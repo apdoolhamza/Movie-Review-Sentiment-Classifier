@@ -1,9 +1,8 @@
 <h1 align="center">
   Movie Review Sentiment Analysis Checker  
-  <br/>
-  <sub>Production-Oriented NLP Pipeline</sub>
 </h1>
 
+<p align="center">Production-Oriented NLP Pipeline</p>
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
