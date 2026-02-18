@@ -1,4 +1,9 @@
-# Movie Review Sentiment Analysis Checker (Production-Oriented NLP Pipeline)
+<h1 align="center">
+  Movie Review Sentiment Analysis Checker  
+  <br/>
+  <sub>Production-Oriented NLP Pipeline</sub>
+</h1>
+
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -42,9 +47,6 @@ movie-sentiment-checker
 │
 ├── Model/
 │   └── sentiment_model_calibrated.joblib   # Trained & calibrated ML model
-│
-├── Notebook/
-│   └── Movie review sentiment analysis.ipynb   # Full EDA + Training workflow
 │
 ├── Screenshots/
 │   └── (EDA plots, confusion matrix, word clouds, etc.)
@@ -92,14 +94,14 @@ print(predict_sentiment("Terrible acting and boring plot. Complete waste."))
 ('Negative', 0.1125)
 ```
 
-## 📊 Model Performance (Test Set)
+## Model Performance
 
 | Metric              | Value                  |
 |---------------------|------------------------|
 | Accuracy            | 0.9148                 |
 | F1-score (macro)    | 0.9148                 |
 | ROC-AUC             | 0.9728                 |
-| Training time       | 2–8 minutes (CPU)      |
+| Training time       | 4–10 minutes (CPU)      |
 | Inference speed     | < 5 ms / review        |
 
 ## License
@@ -115,6 +117,11 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 Feel free to open an issue or submit a pull request.
 
-### Created by Apdoolmajeed Hamza
-[LinkedIn Profile](https://www.linkedin.com/in/apdoolhamza/) 
+## Author
 
+```
+Apdoolmajeed Hamza (apdoolhamza)
+AI/ML Engineer | Full-stack Web Developer
+```
+- LinkedIn: https://www.linkedin.com/in/apdoolhamza/
+- GitHub:   https://github.com/apdoolhamza/
