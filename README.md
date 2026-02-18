@@ -4,11 +4,12 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GiN2iebNODvCC12OelqW20n1uiH-NJbr)
+[![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
 
 A clean, efficient, and production-ready binary sentiment classifierfor movie reviews using classic machine learning techniques (TF-IDF + LinearSVC + calibration).  
 Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight, explainable, and GPU-free.
 
-## ✨ Features
+## Features
 
 - Comprehensive EDA with word clouds & length distributions
 - TF-IDF with bigrams + sublinear scaling
@@ -23,6 +24,10 @@ Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight,
 You can try the model directly in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GiN2iebNODvCC12OelqW20n1uiH-NJbr)
+
+Or try live demo:
+
+[![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
 
 ## Project Structure
 
