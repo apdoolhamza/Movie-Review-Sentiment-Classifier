@@ -9,6 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GiN2iebNODvCC12OelqW20n1uiH-NJbr)
 [![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
+[![Documentation PDF](https://img.shields.io/badge/📘%20Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
 
 A clean, efficient, and production-ready binary sentiment classifierfor movie reviews using classic machine learning techniques (TF-IDF + LinearSVC + calibration).  
 Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight, explainable, and GPU-free.
@@ -38,6 +39,20 @@ You can try the model directly in Google Colab:
 Or try live demo:
 
 [![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
+
+## Project Documentation
+
+This project includes a detailed technical documentation covering:
+
+- Problem Definition
+- Dataset Analysis
+- Text Preprocessing
+- Feature Engineering (TF-IDF)
+- Model Selection & Calibration
+- Evaluation Metrics
+- Deployment with Gradio
+
+[![Read Documentation PDF](https://img.shields.io/badge/📘%20Read_Full_Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
 
 ## Project Structure
 
