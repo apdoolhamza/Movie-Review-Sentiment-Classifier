@@ -10,7 +10,7 @@ Production-Oriented NLP Pipeline
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![View Notebook](https://img.shields.io/badge/📓%20Notebook-File-blue)](https://nbviewer.org/github/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/Notebooks/Movie_review_sentiment_analysis.ipynb)
 [![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
-[![Documentation PDF](https://img.shields.io/badge/📘%20Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
+[![Documentation PDF](https://img.shields.io/badge/📘%20Project_Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
 </p>
 
 A clean, efficient, and production-ready binary sentiment classifierfor movie reviews using classic machine learning techniques (TF-IDF + LinearSVC + calibration).  
@@ -22,6 +22,8 @@ Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight,
   </a>
 </p>
 
+[![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
+
 ## Features
 
 - Comprehensive EDA with word clouds & length distributions
@@ -31,24 +33,6 @@ Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight,
 - Full evaluation suite: classification report, confusion matrix, ROC & PR curves
 - Model persistence with joblib
 - Quick inference function
-
-## Demo
-
-[![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
-
-## Project Documentation
-
-This project includes a detailed technical documentation covering:
-
-- Problem Definition
-- Dataset Analysis
-- Text Preprocessing
-- Feature Engineering (TF-IDF)
-- Model Selection & Calibration
-- Evaluation Metrics
-- Deployment with Gradio
-
-[![Read Documentation PDF](https://img.shields.io/badge/📘%20Read_Full_Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
 
 
 ## Project Directory Structure
