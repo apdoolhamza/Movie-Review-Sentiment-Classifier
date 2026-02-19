@@ -2,7 +2,8 @@
   Movie Review Sentiment Analysis Checker  
 </h1>
 
-<p align="center">Production-Oriented NLP Pipeline</p>
+<p align="center">
+Production-Oriented NLP Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -10,6 +11,7 @@
 [![View Notebook](https://img.shields.io/badge/📓%20Notebook-File-blue)](https://nbviewer.org/github/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/Notebooks/Movie_review_sentiment_analysis.ipynb)
 [![Live Demo on Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI)
 [![Documentation PDF](https://img.shields.io/badge/📘%20Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
+</p>
 
 A clean, efficient, and production-ready binary sentiment classifierfor movie reviews using classic machine learning techniques (TF-IDF + LinearSVC + calibration).  
 Achieves ~88–90% F1-score on the IMDB 50k dataset while remaining lightweight, explainable, and GPU-free.
@@ -48,21 +50,28 @@ This project includes a detailed technical documentation covering:
 
 [![Read Documentation PDF](https://img.shields.io/badge/📘%20Read_Full_Documentation-PDF-blue)](https://github.com/apdoolhamza/Movie-Review-Sentiment-Classifier/blob/main/docs/Sentiment_analysis_report.pdf)
 
-## Project Structure
+
+## Project Directory Structure
 
 ```
-movie-sentiment-checker
+Movie-sentiment-checker/
 │
 ├── Model/
-│   └── sentiment_model_calibrated.joblib   # Trained & calibrated ML model
+│   └── sentiment_model_calibrated.joblib  # Trained & calibrated ML model
+│
+├── Notebooks/
+│   └── movie_review_sentiment_analysis.ipynb # EDA + Training pipeline
 │
 ├── Screenshots/
 │   └── (EDA plots, confusion matrix, word clouds, etc.)
 │
-├── License                 # Project license
-├── README.md               # Project documentation
-├── app.py                  # Gradio web application
-└── requirements.txt        # Project dependencies
+├── docs/
+│   └── Sentiment_analysis_report.pdf  # Full technical documentation
+│
+├── License           # Project license
+├── README.md         # Project overview & usage
+├── app.py            # Gradio deployment app
+└── requirements.txt  # Python dependencies
 ```
 
 ## Installation
